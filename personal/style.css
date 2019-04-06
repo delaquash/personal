@@ -1,0 +1,100 @@
+*,html, body{
+    margin: 0;
+    height: 60%;
+     }
+
+body{
+background:url("https://images.pexels.com/photos/2079162/pexels-photo-2079162.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+   background-size: cover;
+      background-position:normal;
+}
+
+header{
+    background-color:black;
+    height:90px;
+    line-height:90px;
+}
+.logs{
+    padding:30px;
+    margin:30px;
+}
+ul{
+    color: white;
+    list-style: none;
+   
+}
+.hello{
+    text-transform: underline;
+}
+ ul li{
+ display: inline-block;
+}
+
+h1{
+    color: white;
+    padding-left: 3pc;
+    
+}
+header ul{
+     float: right;
+}
+.log img{
+    margin-top:30px;
+}
+header ul li{
+    padding-right: 70px;
+    font-weight: bold;
+    font-size: 30px;
+    transition: all 0.5s;
+}
+header ul li a:hover{
+    text-decoration:none;
+    color:red;
+    }
+
+.para{
+    color:white;
+    line-height: 2em;
+    font-weight: bolder;
+    font-size: 30px;
+    padding-left: 3pc;
+    text-align: end;
+}
+
+.profile{
+        float: left;
+        margin-right: 20px;
+        padding: 3%;
+        height: 200%;
+        width:35%;
+}
+.hov {
+      color:white ;
+    }
+.media{
+  text-align:center;
+  display:inline;
+  padding-right:800px;
+  line-height: 250px !important;
+}
+
+
+@media screen and (max-width: 400px) {
+    .hello,.logs, .log img {
+        background: hsl(263, 100%, 37%);
+    }
+}
+@media screen and (max-width: 400px) {
+
+    .profile,.para, .footer{
+    background-color:maroon;
+    }
+}
+
+@media screen and (max-width:720px) {
+   .hello,
+   .logs,
+   .log img {
+        background:grey;
+    }
+}
